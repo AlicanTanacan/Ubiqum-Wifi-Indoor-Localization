@@ -37,10 +37,8 @@ Attribute 527 (UserID): User identifier (see below). Categorical integer values.
 Attribute 528 (PhoneID): Android device identifier (see below). Categorical integer values. 
 Attribute 529 (Timestamp): UNIX Time when the capture was taken. Integer value. 
 
-
---------------------------------------------- 
 UserID Anonymized user Height (cm) 
---------------------------------------------- 
+
 0 USER0000 (Validation User) N/A 
 1 USER0001 170 
 2 USER0002 176 
@@ -60,11 +58,9 @@ UserID Anonymized user Height (cm)
 16 USER0016 171 
 17 USER0017 166 
 18 USER0018 162 
----------------------------------------------- 
 
----------------------------------------------- 
 PhoneID Android Device Android Ver. UserID 
----------------------------------------------- 
+
 0 Celkon A27 4.0.4(6577) 0 
 1 GT-I8160 2.3.6 8 
 2 GT-I8160 4.1.2 0 
@@ -88,6 +84,5 @@ PhoneID Android Device Android Ver. UserID
 20 Nexus 4 4.3 0 
 21 Nexus S 4.1.2 0 
 22 Orange Monte Carlo 2.3.5 17 
-23 Transformer TF101 4.0.3 2 
-24 bq Curie 4.1.1 12 
-----------------------------------------------
+23 Transformer TF101 4.0.3 2
+24 bq Curie 4.1.1 12
