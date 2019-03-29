@@ -11,20 +11,19 @@ Associated Tasks: Classification, Regression
 Missing Values: N/A	
 Number of Web Hits: 75360
 
-
 Source:
 Donors/Contact 
-Joaquín Torres-Sospedra jtorres +@+ uji.es 
+JoaquÃ­n Torres-Sospedra jtorres +@+ uji.es 
 Raul Montoliu montoliu +@+ uji.es 
-Adolfo Martínez-Usó admarus +@+ upv.es 
-Joaquín Huerta huerta +@+ uji.es 
-UJI - Institute of New Imaging Technologies, Universitat Jaume I, Avda. Vicente Sos Baynat S/N, 12071, Castellón, Spain. 
-UPV - Departamento de Sistemas Informáticos y Computación, Universitat Politècnica de València, Valencia, Spain. 
+Adolfo MartÃ­nez-UsÃ³ admarus +@+ upv.es 
+JoaquÃ­n Huerta huerta +@+ uji.es 
+UJI - Institute of New Imaging Technologies, Universitat Jaume I, Avda. Vicente Sos Baynat S/N, 12071, CastellÃ³n, Spain. 
+UPV - Departamento de Sistemas InformÃ¡ticos y ComputaciÃ³n, Universitat PolitÃ¨cnica de ValÃ¨ncia, Valencia, Spain. 
 
 Creators 
-Joaquín Torres-Sospedra, Raul Montoliu, Adolfo Martínez-Usó, Tomar J. Arnau, Joan P. Avariento, Mauri Benedito-Bordonau, Joaquín Huerta, Yasmina Andreu, óscar Belmonte, Vicent Castelló, Irene Garcia-Martí, Diego Gargallo, Carlos Gonzalez, Nadal Francisco, Josep López, Ruben Martínez, Roberto Mediero, Javier Ortells, Nacho Piqueras, Ianisse Quizán, David Rambla, Luis E. Rodríguez, Eva Salvador Balaguer, Ana Sanchís, Carlos Serra, and Sergi Trilles.
+JoaquÃ­n Torres-Sospedra, Raul Montoliu, Adolfo MartÃ­nez-UsÃ³, Tomar J. Arnau, Joan P. Avariento, Mauri Benedito-Bordonau, JoaquÃ­n Huerta, Yasmina Andreu, Ã³scar Belmonte, Vicent CastellÃ³, Irene Garcia-MartÃ­, Diego Gargallo, Carlos Gonzalez, Nadal Francisco, Josep LÃ³pez, Ruben MartÃ­nez, Roberto Mediero, Javier Ortells, Nacho Piqueras, Ianisse QuizÃ¡n, David Rambla, Luis E. RodrÃ­guez, Eva Salvador Balaguer, Ana SanchÃ­s, Carlos Serra, and Sergi Trilles.
 
-
+--------------------------------------------
 Data Set Information:
 Many real world applications need to know the localization of a user in the world to provide their services. Therefore, automatic user localization has been a hot research topic in the last years. Automatic user localization consists of estimating the position of the user (latitude, longitude and altitude) by using an electronic device, usually a mobile phone. Outdoor localization problem can be solved very accurately thanks to the inclusion of GPS sensors into the mobile devices. However, indoor localization is still an open problem mainly due to the loss of GPS signal in indoor environments. Although, there are some indoor positioning technologies and methodologies, this database is focused on WLAN fingerprint-based ones (also know as WiFi Fingerprinting). 
 
@@ -44,9 +43,7 @@ The particular space (offices, labs, etc.) and the relative position (inside/out
 
 Information about who (user), how (android device & version) and when (timestamp) WiFi capture was taken is also recorded. 
 
-
-
-
+--------------------------------------------
 Attribute Information:
 Attribute 001 (WAP001): Intensity value for WAP001. Negative integer values from -104 to 0 and +100. Positive value 100 used if WAP001 was not detected. 
 .... 
@@ -60,7 +57,6 @@ Attribute 526 (RelativePosition): Relative position with respect to the Space (1
 Attribute 527 (UserID): User identifier (see below). Categorical integer values. 
 Attribute 528 (PhoneID): Android device identifier (see below). Categorical integer values. 
 Attribute 529 (Timestamp): UNIX Time when the capture was taken. Integer value. 
-
 
 --------------------------------------------- 
 UserID Anonymized user Height (cm) 
@@ -116,18 +112,20 @@ PhoneID Android Device Android Ver. UserID
 24 bq Curie 4.1.1 12 
 ----------------------------------------------
 
-
 Relevant Papers:
-Joaquín Torres-Sospedra, Raúl Montoliu, Adolfo Martínez-Usó, Tomar J. Arnau, Joan P. Avariento, Mauri Benedito-Bordonau, Joaquín Huerta 
+JoaquÃ­n Torres-Sospedra, RaÃºl Montoliu, Adolfo MartÃ­nez-UsÃ³, Tomar J. Arnau, Joan P. Avariento, Mauri Benedito-Bordonau, JoaquÃ­n Huerta 
 UJIIndoorLoc: A New Multi-building and Multi-floor Database for WLAN Fingerprint-based Indoor Localization Problems 
 In Proceedings of the Fifth International Conference on Indoor Positioning and Indoor Navigation, 2014.
 Available at: [Web Link]
-
-
 
 Citation Request:
-Joaquín Torres-Sospedra, Raúl Montoliu, Adolfo Martínez-Usó, Tomar J. Arnau, Joan P. Avariento, Mauri Benedito-Bordonau, Joaquín Huerta 
+JoaquÃ­n Torres-Sospedra, RaÃºl Montoliu, Adolfo MartÃ­nez-UsÃ³, Tomar J. Arnau, Joan P. Avariento, Mauri Benedito-Bordonau, JoaquÃ­n Huerta 
 UJIIndoorLoc: A New Multi-building and Multi-floor Database for WLAN Fingerprint-based Indoor Localization Problems 
 In Proceedings of the Fifth International Conference on Indoor Positioning and Indoor Navigation, 2014.
 Available at: [Web Link]
 
+----------------------------------------------
+
+My Work:
+Version 1: Initial Data Exploration and First Model Training 
+Version 2: Subsetting, (kNN, SVM, Random Forest) Modelization, Model Comparison and Error Check
