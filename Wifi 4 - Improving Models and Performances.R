@@ -1,5 +1,5 @@
 ### ---------------------- Wifi Locationing ---------------------- ###
-### --------------------- by Alican Tanaçan ---------------------- ###
+### --------------------- by Alican TanaÃ§an ---------------------- ###
 ### ----- Version 4: Improving Modelization and Performance ------ ###
 
 ## In this version, we are trying to find the best model that accurately 
@@ -188,6 +188,6 @@ RFerrorvaliddata %>%
   xlab("Longitude") + 
   theme_light()
 
-## We see that we have many errors on locationing the user. This might be because of 
+## We see that we have many errors on locating the user. This might be because of 
 ## the means of WAPS. Maybe introducing best signal range (-30 dBm to -67 dBm) or,   
-## eliminating columns with the values close to zero would be more logical.
+## eliminating columns with the variance close to zero would be more logical.
