@@ -89,6 +89,18 @@ WifiData %>%
                       yaxis = list(title = "Latitude"),
                       zaxis = list(title = "Floor")))
 
+## Users' Behaviors Visualization
+WifiTrainingData %>% 
+  plot_ly(x = ~LONGITUDE, 
+          y = ~LATITUDE, 
+          z = ~as.factor(FLOOR), 
+          color = ~as.factor(USERID)) %>%
+  add_markers() %>%
+  layout(title = "User Behavior",
+         scene = list(xaxis = list(title = "Longitude"),
+                      yaxis = list(title = "Latitude"),
+                      zaxis = list(title = "Floor")))
+
 ### ---- Preprocessing ----
 ## Change the Data Types
 WifiTrainingData %>%
