@@ -1,10 +1,11 @@
 ### ---------------------- Wifi Locationing ---------------------- ###
-### --------------------- by Alican Tanaçan ---------------------- ###
+### --------------------- by Alican TanaÃ§an ---------------------- ###
 ### ---- Version 5: Re-preparation of Data and Model Building ---- ###
 
 ## In this version, we will try to define range of values for good 
 # and bad signals. Later we will try to take mean and variance to 
-# eliminate poor signal WAPS; then we will rerun the models.
+# eliminate poor signal WAPS; then we will subset for each building and
+# try different models with different preprocesses.
 
 ### ---- Libraries ----
 library(dplyr)
