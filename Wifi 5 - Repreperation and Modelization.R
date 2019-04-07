@@ -525,7 +525,7 @@ postResample(predRF0Lat, Valid0Lat$LATITUDE) -> RF0LatMetrics
 RF0LatMetrics
 # RMSE: 5.968
 # Rsquared: 0.967
-# MAE: 4/249
+# MAE: 4.249
 
 ## Building 0 Floor
 RF0Floor <- train(FLOOR ~ ., 
