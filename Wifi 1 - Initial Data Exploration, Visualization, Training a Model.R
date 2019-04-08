@@ -1,5 +1,5 @@
 ### --------------------- Wifi Locationing --------------------- ###
-### -------------------- by Alican Tanaçan --------------------- ###
+### -------------------- by Alican TanaÃ§an --------------------- ###
 ### ----------- Version 1: Initial Data Exploration ------------ ###
 
 ### ---- Libraries ----
@@ -91,6 +91,30 @@ WifiData %>%
 
 ## Users' Behaviors Visualization
 WifiTrainingData %>% 
+  plot_ly(x = ~LONGITUDE, 
+          y = ~LATITUDE, 
+          z = ~as.factor(FLOOR), 
+          color = ~as.factor(USERID)) %>%
+  add_markers() %>%
+  layout(title = "User Behavior",
+         scene = list(xaxis = list(title = "Longitude"),
+                      yaxis = list(title = "Latitude"),
+                      zaxis = list(title = "Floor")))
+
+WifiTrainingData %>% 
+  filter(BUILDINGID == 1) %>% 
+  plot_ly(x = ~LONGITUDE, 
+          y = ~LATITUDE, 
+          z = ~as.factor(FLOOR), 
+          color = ~as.factor(USERID)) %>%
+  add_markers() %>%
+  layout(title = "User Behavior",
+         scene = list(xaxis = list(title = "Longitude"),
+                      yaxis = list(title = "Latitude"),
+                      zaxis = list(title = "Floor")))
+
+WifiValidationData %>% 
+  filter(BUILDINGID == 1) %>% 
   plot_ly(x = ~LONGITUDE, 
           y = ~LATITUDE, 
           z = ~as.factor(FLOOR), 
