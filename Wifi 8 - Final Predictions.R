@@ -1,5 +1,5 @@
 ### ---------------------- Wifi Locationing ---------------------- ###
-### --------------------- by Alican Tanaçan ---------------------- ###
+### --------------------- by Alican TanaÃ§an ---------------------- ###
 ### -------- Version 8: Getting Over the Imbalance of Data ------- ###
 ### ------------------ and Final Predictions --------------------- ###
 
@@ -966,6 +966,7 @@ str(ErrorData)
 ## Checking Errors
 confusionMatrix(ErrorData$pred.floor, ErrorData$valid.floor)
 
+## Building 0 Floor Error Check
 ErrorData %>% 
   filter(building == 0) %>% 
   group_by(diff.floor) %>% 
@@ -984,6 +985,7 @@ ErrorData %>%
                       yaxis = list(title = "Latitude"),
                       zaxis = list(title = "Floor")))
 
+## Building 1 Floor Error Check
 ErrorData %>%  
   filter(building == 1) %>% 
   group_by(diff.floor) %>% 
@@ -1002,6 +1004,7 @@ ErrorData %>%
                       yaxis = list(title = "Latitude"),
                       zaxis = list(title = "Floor")))
 
+## Building 2 Floor Error Check
 ErrorData %>% 
   filter(building == 2) %>% 
   group_by(diff.floor) %>% 
