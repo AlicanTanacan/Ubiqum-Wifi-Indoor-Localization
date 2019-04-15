@@ -1,3 +1,8 @@
+Hello,
+In this project we are given a data set, which more information is given below, and asked to locate users with indoor wifi fingerprints. When my work is examined, my steps of realizations can be observed. Hope you enjoy!
+
+----------- DATA SET INFORMATION -----------
+
 UJIIndoorLoc Data Set 
 Download: Data Folder, Data Set Description
 Abstract: The UJIIndoorLoc is a Multi-Building Multi-Floor indoor localization database to test Indoor Positioning System that rely on WLAN/WiFi fingerprint.	
