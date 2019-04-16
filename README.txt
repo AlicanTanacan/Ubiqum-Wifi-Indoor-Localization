@@ -128,3 +128,4 @@ Joaquín Torres-Sospedra, Raúl Montoliu, Adolfo Martínez-Usó, Tomar J. Arnau,
 UJIIndoorLoc: A New Multi-building and Multi-floor Database for WLAN Fingerprint-based Indoor Localization Problems 
 In Proceedings of the Fifth International Conference on Indoor Positioning and Indoor Navigation, 2014.
 Available at: [Web Link]
+
