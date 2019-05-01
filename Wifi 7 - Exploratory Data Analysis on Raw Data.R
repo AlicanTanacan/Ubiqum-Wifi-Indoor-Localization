@@ -1,5 +1,5 @@
 ### ---------------------- Wifi Locationing ---------------------- ###
-### --------------------- by Alican Tanaçan ---------------------- ###
+### --------------------- by Alican TanaÃ§an ---------------------- ###
 ### -------- Version 7: Investigating Patterns on Raw Data ------- ###
 
 ### ---- Libraries ----
