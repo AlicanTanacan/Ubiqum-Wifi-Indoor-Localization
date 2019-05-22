@@ -1,5 +1,6 @@
 Hello,
-In this project we are given a data set, which more information is given below, and asked to locate users with indoor wifi fingerprints. When my work is examined, my steps of realizations can be observed. Hope you enjoy!
+In this project we are given a data set, which more information is given below, and asked to locate users with indoor wifi fingerprints. When my work is examined, my steps of realizations can be observed.
+You have to download the data from UJI repository. Later the code should work smoothly without any error.
 
 ----------- DATA SET INFORMATION -----------
 
